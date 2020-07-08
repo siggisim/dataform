@@ -12,3 +12,5 @@ build:remote-cache --remote_cache=grpcs://buildfarm.corp.dataform.co
 build:remote-cache --remote_timeout=3600
 build:remote-cache --auth_enabled=true
 build:remote-cache --google_default_credentials=true
+build:remote-cache --bes_backend=grpcs://cloud.buildbuddy.io
+build:remote-cache --bes_results_url=https://app.buildbuddy.io/invocation/
